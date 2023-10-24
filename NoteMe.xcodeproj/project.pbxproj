@@ -15,6 +15,7 @@
 		AC16736C2AE834E200585D92 /* UIFont+Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16736B2AE834E200585D92 /* UIFont+Consts.swift */; };
 		AC16736E2AE8382B00585D92 /* UIImage+Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16736D2AE8382B00585D92 /* UIImage+Consts.swift */; };
 		AC1673712AE83AF500585D92 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AC1673702AE83AF500585D92 /* SnapKit */; };
+		AC1673772AE83DE500585D92 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1673762AE83DE500585D92 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		AC1673692AE82E7A00585D92 /* UIColor+Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Consts.swift"; sourceTree = "<group>"; };
 		AC16736B2AE834E200585D92 /* UIFont+Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Consts.swift"; sourceTree = "<group>"; };
 		AC16736D2AE8382B00585D92 /* UIImage+Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Consts.swift"; sourceTree = "<group>"; };
+		AC1673762AE83DE500585D92 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		AC1673502AE824CE00585D92 /* NoteMe */ = {
 			isa = PBXGroup;
 			children = (
+				AC1673732AE83D9C00585D92 /* Modules */,
 				AC1673652AE82D0C00585D92 /* App */,
 				AC16735C2AE824D000585D92 /* LaunchScreen.storyboard */,
 				AC16735F2AE824D000585D92 /* Info.plist */,
@@ -94,6 +97,30 @@
 				AC16736D2AE8382B00585D92 /* UIImage+Consts.swift */,
 			);
 			path = Consts;
+			sourceTree = "<group>";
+		};
+		AC1673732AE83D9C00585D92 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AC1673742AE83DA700585D92 /* Auth */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AC1673742AE83DA700585D92 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AC1673752AE83DC000585D92 /* Login */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		AC1673752AE83DC000585D92 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AC1673762AE83DE500585D92 /* LoginVC.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +201,7 @@
 			files = (
 				AC16736E2AE8382B00585D92 /* UIImage+Consts.swift in Sources */,
 				AC16736C2AE834E200585D92 /* UIFont+Consts.swift in Sources */,
+				AC1673772AE83DE500585D92 /* LoginVC.swift in Sources */,
 				AC1673522AE824CE00585D92 /* AppDelegate.swift in Sources */,
 				AC16736A2AE82E7A00585D92 /* UIColor+Consts.swift in Sources */,
 				AC1673542AE824CE00585D92 /* SceneDelegate.swift in Sources */,
@@ -323,7 +351,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -354,7 +382,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
