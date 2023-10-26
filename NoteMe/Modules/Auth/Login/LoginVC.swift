@@ -42,7 +42,7 @@ final class LoginVC: UIViewController {
             make.horizontalEdges.equalToSuperview()
             make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
             make.top.equalTo(view.safeAreaLayoutGuide.snp.bottom)
-            
+            //MARK: - test
         logoImageView.snp.makeConstraints { make in
             make.top.equalToSuperview().inset(72.0)
             make.centerX.equalToSuperview()
